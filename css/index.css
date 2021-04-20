@@ -1,0 +1,80 @@
+:root {
+    --nuberkeyColor: #505254;
+    --actionColor: #0016ff;
+    --oparetorColor: #808080;
+    --oparetorbg: #9696964a;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 18px;
+}
+
+.monitor-section{
+    margin-bottom: 100px;
+}
+.monitor-section input{
+    font-size: 50px;
+    text-align: right; 
+}
+/* top-operators-section */
+.top-operators-key{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 0px;
+    overflow: hidden;
+}
+.top-operators-key a{
+    width: 100%;
+    font-size: 48px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* keyword-section */
+.keyword-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-section {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.number-section a {
+    width: 100%;
+    font-size: 58px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--nuberkeyColor);
+}
+
+/* operators */
+.operators {
+    width: 20%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background: var(--oparetorbg);
+}
+.operators a {
+    width: 100%;
+    font-size: 58px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--oparetorColor);
+}
+
+.clear,
+.equle{
+    color: var(--actionColor) !important;
+}

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\jquery-mobile-lib"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\css"
+		},
+		{
+			"path": "..\\img"
+		}
+	],
+	"settings": {}
+}
